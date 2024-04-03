@@ -10,7 +10,8 @@
   <script>
     document.addEventListener("DOMContentLoaded", () => {
       const cookieEnable = navigator.cookieEnabled;
-      document.querySelector(".wrap").innerHTML(cookieEnable);
+      const text = document.querySelector(".wrap");
+      text.innerHTML = cookieEnable
     })
   </script>
 </body>
